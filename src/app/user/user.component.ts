@@ -17,6 +17,12 @@ export class UserComponent implements OnInit {
         (params: Params) => {
           this.id = +params['id'];
         }
+        // () => { //in case of error
+
+        // },
+        // () => { //in case of completes
+
+        // }
       );
   }
 
